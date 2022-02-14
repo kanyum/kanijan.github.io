@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Kanykei Kambaralieva</a>
+            <ul>
+            <li><a href="cv.html">Home</a></li>
+
+            <li><a href="bio.html">Short Biography</a></li>
+
+            <li><a href="skills.html">Skills</a></li>
+
+            <li><a href="code.html">Code Example</a></li>
+
+            <li><a href="port.html">Portfolio</a></li>
+
+            <li><a href="edu.html">Education</a></li>
+
+            <li><a href="lang.html">Languages</a></li>
+
+            <li><a href="cont.html">Contacts</a></li>
+
+            </ul>
+        </nav>
+
+           <section>
+               <img src="image/Без названия (1).jpeg" alt="Kanykei Kambaralieva" width="200" height="260">
+               <h1>Kanykei Kambaralieva</h1>
+               <h4>Psychologist and Junior Front-End Programer</h4>
+           </section>
+
+           <section id="Biography">
+               <h2>Short Biography</h2>
+               <p>I was born in 1998, in the Jalal-Abad region, in the village of Rahmanzhan.</p>
+           </section>
+
+           <section>
+               <p>I am constantly looking for growth. I keep taking small steps. I do not waste my precious time on things that are not worth my attention. If I want something, then I fight to the end</p>
+           </section>
+
+               <h3>Contacts</h3>
+           <ul>
+               <li>
+                   <h4>Location</h4>
+                   <p>Bishkek, Kyrgyzstan</p>
+               </li>
+               <li>
+                   <h4>Phone Number</h4>
+                   <a href="tel:+996551167017">+996551 167 017</a>
+               </li>
+               <li>
+                   <h4>Email</h4>
+                   <a href="mailto:kanykei.kambaralieva.kk@gmail.com">kanykei.kambaralieva.kk@gmail.com</a>
+               </li>
+           </ul>
+
+    </header>
+    <main>
+        <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Figma</li>
+            <li>VS Code</li>
+        </ul>
+    </section>
+
+    <section id="CodeExample">
+        <h2>Code Example</h2>
+        <p>
+            <b>Task</b>
+        </p>
+        <pre>
+            <code>
+                meta charset="UTF-8">
+    meta http-equiv=X-UA-Compatibl content=IEedge;
+            </code>
+        </pre>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+                <img src="image/Cover-graphic-design-portfolio-tips.jpg" alt="spin text on hover project screenshots">
+    </section>
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>
+                <b>Kyrgyz</b>
+                "&mdash; Native"
+            </li>
+            <li>
+                <b>Russian</b>
+                "&mdash; Fluent"
+            </li>
+            <li>
+                <b>Engliah</b>
+                "&mdash; Pre-Intermediate"
+            </li>
+            <li>
+                <b>German</b>
+                "&mdash;Middle"
+            </li>
+        </ul>
+    </section>
+    <section id="Education">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <b>Kyrgyz-Turkish Manas University</b>Faculty of Letters, Psychological Counseling and Guid, undergraduate
+        </li>
+        <li>
+            <b>Kyrgyz-Turkish Manas University</b>Faculty of Letters, Psychological Counseling and Guid, magistracy
+        </li>
+    </ul>
+
+</section>
+
+    </main>
+        <footer>
+            <p>
+            2022 &copy;
+            Kanykei Kambaralieva
+            <a href="https://github.com/kanyum"> I'm in GitHub</a>
+            
+            <a href="https://linktr.ee/jyldyzacademy2020"> Jyldyz Academy </a>
+        </p>
+        </footer>    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
